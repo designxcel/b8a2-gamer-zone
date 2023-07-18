@@ -22,7 +22,7 @@
 
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,12 +90,14 @@ nav{
     /* border: 1px solid tomato; */
 
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* gap: 0; */
 }
+
 .banner-content-title {
     color: #0B0223;
     text-align: left;
@@ -131,14 +133,16 @@ nav{
     margin-bottom: 18px;
 }
 
-.contents-tag i{
+.contents-tag i {
     margin-right: 8px;
 }
-.btns{
+
+.btns {
     text-align: left;
     margin-top: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     background: #F948B2;
     color: white;
     text-transform: uppercase;
@@ -148,7 +152,7 @@ nav{
 
 }
 
-.btn-secondary{
+.btn-secondary {
     background: #4EC5F7;
     color: white;
     text-transform: uppercase;
@@ -157,12 +161,90 @@ nav{
     border-radius: 48px;
 }
 
-.banner-content-right{
+.banner-content-right {
     width: 50%;
-    /* border: 1px solid blue; */
 }
 
-.banner-content-right img{
-    /* width: 100%; */
-    /* margin-top: 15px; */
+/* we are gamer section */
+.we-are-gamer {
+    display: flex;
+    max-width: 1440px;
+    margin: 100px auto;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-content {
+    margin-top: 50px;
+}
+
+.gamer-content p {
+    width: 520px;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.quote {
+    margin-top: 50px;
+}
+
+
+/* play portion style */
+
+.play-concept {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.play-left {
+    text-align: right;
+    margin-top: -350px;
+}
+
+.play-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.play-title-special {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-left p {
+    width: 353px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-image {
+    width: 634px;
+    height: 650px;
+}
+
+.bottom-image {
+    width: 340px;
+    position: relative;
+    bottom: 300px;
+    left: -150px;
 }
