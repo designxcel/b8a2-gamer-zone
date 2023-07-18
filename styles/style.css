@@ -250,24 +250,25 @@ nav {
     left: -150px;
 }
 
-
-.games-collection {
+.game-section {
     height: 300px;
-    background: rgb(248, 216, 239);
+    background: rgba(248, 216, 239,0.5);
     /* border: 1px solid black; */
     margin-top: -100px;
+}
+
+.games-collection {
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    row-gap: 20px;
+    /* row-gap: 20px; */
     column-gap: 20px;
     align-items: center;
+    max-width: 1440px;
+    margin: 0px auto;
 }
 
-.games-collection img {
-    /* width: 60px;
-    height: 60px; */
 
-}
 
 .games-collection h3 {
     color: #0B0223;
@@ -291,11 +292,15 @@ nav {
     background-color: white;
     border-radius: 70px;
     padding: 20px 0 20px 10px;
+    margin-top: 35px;
 }
 
-.games-collection div:hover {
+.game-card:hover {
     color: #F948B2;
     border: 1px solid salmon;
+}
+.game-card h3:hover {
+    color: #F948B2; 
 }
 
 /* .game-second-row {
@@ -319,15 +324,15 @@ nav {
 } */
 
 footer {
-    max-width: 100%;
     height: 600px;
     background-color: #0B0223;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
 
 }
 
 .footer-section {
-
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 120px;
 }
@@ -342,7 +347,7 @@ footer {
 
 .footer-top-menu {
     margin-top: 60px;
-    
+
 }
 
 .footer-heading {
@@ -364,7 +369,7 @@ footer ul {
 
 footer li {
     list-style: none;
-    
+
 }
 
 footer a {
@@ -377,7 +382,7 @@ footer a {
 
 }
 
-.social-media-icons{
+.social-media-icons {
     display: flex;
     justify-content: center;
     gap: 50px;
