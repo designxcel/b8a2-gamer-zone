@@ -158,6 +158,17 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .game-section{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .games-collection{
+        grid-template-columns: repeat(3, 2fr);
+
+        
+    }
 
 
 }
