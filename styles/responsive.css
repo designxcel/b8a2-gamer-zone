@@ -13,12 +13,57 @@
     .menus li{
         margin-top: 35px;
     }
+    .banner{
+        flex-direction: column-reverse;
+        /* width: 100%; */
+    }
+
+
+    .banner-content-right{
+        width: 100%;
+    }
+
+    .banner-content-right img{
+        width: 80%;
+        margin: 250px 40px 0px;
+    }
+
+    
+    .banner-content-left{
+
+        width: 400px;
+        height: 650px;
+        /* margin-left: 50px; */
+    
+    }
+    .banner-content-title{
+        margin: 50px 50px 0 25px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    .banner-content-main-title{
+        margin: 0 50px 10px 25px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    .contents-tag{
+        margin: 0 50px 10px 25px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    
 }
 
 
 /* For tablet device */
 
 @media screen and (min-width:576px) and (max-width:970px){
+    .navbar{
+        height: 180px;
+    }
     nav{
         flex-direction: column;
     }
@@ -26,4 +71,43 @@
         margin-top: 30px;
         text-align: center;
     } 
+
+    .banner{
+        flex-direction: column-reverse;
+        /* width: 100%; */
+    }
+
+    .banner-content-right{
+        width: 100%;
+        margin: 50px;
+    }
+
+    .banner-content-right img{
+        width: 100%;
+        /* margin: 50px auto; */
+    }
+
+    .banner-content-left{
+
+        width: 100%;
+        /* margin-left: 50px; */
+    
+    }
+    .banner-content-title{
+        /* margin: 50px 50px 0 25px;
+        width: 350px;
+        padding: 20px; */
+    }
+
+    .banner-content-main-title{
+        /* margin: 0 50px 10px 25px;
+        width: 350px;
+        padding: 20px; */
+    }
+
+    .contents-tag{
+        /* margin: 0 50px 10px 25px;
+        width: 350px;
+        padding: 20px; */
+    }
 }
