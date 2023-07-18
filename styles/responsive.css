@@ -69,7 +69,44 @@
         width:350px;
         margin: 50px auto;
     }
+
+    .play-concept{
+        flex-direction: column;
+    }
+
+    .play-left{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .play-side-image{
+        padding: 50px;
+    }
+    .main-image {
+        width: 300px;
+        height: 280px;
+    }
     
+    .bottom-image {
+        width: 150px;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    /* footer{
+        width: 100%;
+    } */
+
+    .footer-section{
+        width: 50%;
+    }
+
+    .game-first-row{
+        flex-direction: column;
+    }
+    .game-second-row{
+        flex-direction: column;
+    }
+
 }
 
 
@@ -119,6 +156,27 @@
     .gamer-content p{
         width:600px;
         margin: 50px auto;
+    }
+    .play-concept{
+        
+        flex-direction: column;
+    }
+
+    .play-left{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .main-image {
+        margin-top: 50px;
+        width: 450px;
+        height: 400px;
+    }
+    
+    .bottom-image {
+        width: 150px;
+        margin-left: 100px;
+        margin-top: 200px;
     }
 
 }
