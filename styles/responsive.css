@@ -1,0 +1,29 @@
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+
+    .menus{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .menus ul{
+        flex-direction: column;
+    }
+    .menus li{
+        margin-top: 35px;
+    }
+}
+
+
+/* For tablet device */
+
+@media screen and (min-width:576px) and (max-width:970px){
+    nav{
+        flex-direction: column;
+    }
+    .menus{
+        margin-top: 30px;
+        text-align: center;
+    } 
+}
